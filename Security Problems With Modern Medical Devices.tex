@@ -1,0 +1,149 @@
+
+%% bare_jrnl.tex
+%% V1.4
+%% 2012/12/27
+%% by Michael Shell
+%% see http://www.michaelshell.org/
+%% for current contact information.
+%%
+%% This is a skeleton file demonstrating the use of IEEEtran.cls
+%% (requires IEEEtran.cls version 1.8 or later) with an IEEE journal paper.
+%%
+%% Support sites:
+%% http://www.michaelshell.org/tex/ieeetran/
+%% http://www.ctan.org/tex-archive/macros/latex/contrib/IEEEtran/
+%% and
+%% http://www.ieee.org/
+
+
+
+% *** Authors should verify (and, if needed, correct) their LaTeX system  ***
+% *** with the testflow diagnostic prior to trusting their LaTeX platform ***
+% *** with production work. IEEE's font choices can trigger bugs that do  ***
+% *** not appear when using other class files.                            ***
+% The testflow support page is at:
+% http://www.michaelshell.org/tex/testflow/
+
+
+%%*************************************************************************
+%% Legal Notice:
+%% This code is offered as-is without any warranty either expressed or
+%% implied; without even the implied warranty of MERCHANTABILITY or
+%% FITNESS FOR A PARTICULAR PURPOSE! 
+%% User assumes all risk.
+%% In no event shall IEEE or any contributor to this code be liable for
+%% any damages or losses, including, but not limited to, incidental,
+%% consequential, or any other damages, resulting from the use or misuse
+%% of any information contained here.
+%%
+%% All comments are the opinions of their respective authors and are not
+%% necessarily endorsed by the IEEE.
+%%
+%% This work is distributed under the LaTeX Project Public License (LPPL)
+%% ( http://www.latex-project.org/ ) version 1.3, and may be freely used,
+%% distributed and modified. A copy of the LPPL, version 1.3, is included
+%% in the base LaTeX documentation of all distributions of LaTeX released
+%% 2003/12/01 or later.
+%% Retain all contribution notices and credits.
+%% ** Modified files should be clearly indicated as such, including  **
+%% ** renaming them and changing author support contact information. **
+%%
+%% File list of work: IEEEtran.cls, IEEEtran_HOWTO.pdf, bare_adv.tex,
+%%                    bare_conf.tex, bare_jrnl.tex, bare_jrnl_compsoc.tex,
+%%                    bare_jrnl_transmag.tex
+%%*************************************************************************
+
+\documentclass{IEEEtran}
+
+\makeatletter
+\def\endthebibliography{%
+	\def\@noitemerr{\@latex@warning{Empty `thebibliography' environment}}%
+	\endlist
+}
+\makeatother
+
+\begin{document}
+%
+% paper title
+% can use linebreaks \\ within to get better formatting as desired
+% Do not put math or special symbols in the title.
+\title{Review of Cybersecurity Within Modern Medical Devices}
+
+
+\author{Arthur~Pangemanan}% <-this % stops a space
+
+
+
+% The paper headers
+\markboth{CPTE-542-A Survey Paper, October 2019}%
+{Shell \MakeLowercase{\textit{et al.}}: CPTE-542-A Survey Paper, October 2019}
+
+\maketitle
+
+% As a general rule, do not put math, special symbols or citations
+% in the abstract or keywords.
+\begin{abstract}
+	
+	
+	This paper will review the cyber threat modern medical device faces.
+\end{abstract}
+
+% Note that keywords are not normally used for peerreview papers.
+\begin{IEEEkeywords}
+Cybersecurity, Security, Risk, Safety, Wireless, Medical devices.
+\end{IEEEkeywords}
+
+
+\section{Introduction}
+\IEEEPARstart{T}{he} medical industry has change ever since the first computer were introduced. 
+
+\section{Background}
+\subsection{History Of Medical Devices}
+Subsection text here.
+
+
+\section{Medical Imaging}
+
+\section{Cybersecurity in Healthcare}
+
+\section{Growing Threat}
+
+\section{Security Challenges}
+
+The medical industry face many challenges \cite{Sametinger}.
+\cite{coventry2018cybersecurity}.
+\cite{williams2015cybersecurity}.
+\cite{moses2015lack}.
+\cite{ferrara2019cybersecurity}.
+\cite{murphy2015cybersecurity}.
+\cite{stites2016secure}.
+\cite{Wang:2018:MDR:3243734.3278513}.
+\cite{Ray:2014:AMM:2600176.2600192}.
+\cite{gerard2013cybersecurity}.
+\cite{mahler2018know}.
+\cite{ma2019medical}.
+\cite{busdicker2017role}.
+\cite{martin2017cybersecurity}.
+\cite{Marwan:2017:DSF:3090354.3090361}.
+\cite{FooKune:2012:TSI:2342536.2342540}.
+\cite{Almohri:2017:TMM:3204094.3204113}.
+\cite{tk2013inside}.
+\cite{fu2014controlling}.
+\cite{tanev2015value}.
+\cite{Sametinger:2015:SCM:2749359.2667218}.
+\cite{tanev2015value}.
+\cite{CyberSecurity}.
+
+
+\section{Conclusion}
+The conclusion goes here.
+
+
+%--- biliography ---
+\bibliographystyle{IEEEtran}
+\bibliography{reference}
+
+% that's all folks
+\end{document}
+
+
