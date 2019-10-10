@@ -59,31 +59,6 @@ Michael Shell
 http://www.michaelshell.org/
 
 
-********************************** Files **********************************
-
-README                 - This file.
-
-IEEEtran.cls           - The IEEEtran LaTeX class file.
-
-changelog.txt          - The revision history.
-
-IEEEtran_HOWTO.pdf     - The IEEEtran LaTeX class user manual.
-
-bare_conf.tex          - A bare bones starter file for conference papers.
-
-bare_jrnl.tex          - A bare bones starter file for journal papers.
-
-bare_jrnl_compsoc.tex  - A bare bones starter file for Computer Society
-                         journal papers.
-
-bare_jrnl_transmag.tex - A bare bones starter file for IEEE Transactions
-                         on Magnetics journal papers.
-
-bare_adv.tex           - A bare bones starter file showing advanced
-                         techniques such as conditional compilation,
-                         hyperlinks, PDF thumbnails, etc. The illustrated
-                         format is for a Computer Society journal paper.
-
 ***************************************************************************
 Legal Notice:
 This code is offered as-is without any warranty either expressed or
