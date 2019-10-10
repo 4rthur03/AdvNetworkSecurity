@@ -21,17 +21,22 @@
 \providecommand{\BIBdecl}{\relax}
 \BIBdecl
 
+\bibitem{coventry2018cybersecurity}
+L.~Coventry and D.~Branley, ``Cybersecurity in healthcare: A narrative review
+  of trends, threats and ways forward,'' \emph{Maturitas}, vol. 113, pp.
+  48--52, 2018.
+
+\bibitem{wirth2011cybercrimes}
+A.~Wirth, ``Cybercrimes pose growing threat to medical devices,''
+  \emph{Biomedical instrumentation \& technology}, vol.~45, no.~1, pp. 26--34,
+  2011.
+
 \bibitem{Sametinger}
 \BIBentryALTinterwordspacing
 J.~Sametinger, J.~Rozenblit, R.~Lysecky, and P.~Ott, ``Security challenges for
   medical devices,'' \emph{Commun. ACM}, vol.~58, no.~4, pp. 74--82, Mar. 2015.
   [Online]. Available: \url{http://doi.acm.org/10.1145/2667218}
 \BIBentrySTDinterwordspacing
-
-\bibitem{coventry2018cybersecurity}
-L.~Coventry and D.~Branley, ``Cybersecurity in healthcare: A narrative review
-  of trends, threats and ways forward,'' \emph{Maturitas}, vol. 113, pp.
-  48--52, 2018.
 
 \bibitem{williams2015cybersecurity}
 P.~A. Williams and A.~J. Woodward, ``Cybersecurity vulnerabilities in medical
