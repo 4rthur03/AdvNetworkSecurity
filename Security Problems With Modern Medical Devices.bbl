@@ -56,22 +56,17 @@ M.~Stites and O.~S. Pianykh, ``How secure is your radiology department? mapping
   digital radiology adoption and security worldwide,'' \emph{American Journal
   of Roentgenology}, vol. 206, no.~4, pp. 797--804, 2016.
 
-\bibitem{Wang:2018:MDR:3243734.3278513}
+\bibitem{InformationSecurityonDiagnosticImagingSystem}
 \BIBentryALTinterwordspacing
 Z.~Wang, P.~Ma, Y.~Chi, and J.~Zhang, ``Medical devices are at risk:
-  Information security on diagnostic imaging system,'' in \emph{Proceedings of
-  the 2018 ACM SIGSAC Conference on Computer and Communications Security}, ser.
-  CCS '18.\hskip 1em plus 0.5em minus 0.4em\relax New York, NY, USA: ACM, 2018,
-  pp. 2309--2311. [Online]. Available:
-  \url{http://doi.acm.org/10.1145/3243734.3278513}
+  Information security on diagnostic imaging system,'' pp. 2309--2311, 2018.
+  [Online]. Available: \url{http://doi.acm.org/10.1145/3243734.3278513}
 \BIBentrySTDinterwordspacing
 
-\bibitem{Ray:2014:AMM:2600176.2600192}
+\bibitem{Ray}
 \BIBentryALTinterwordspacing
 A.~Ray and R.~Cleaveland, ``An analysis method for medical device security,''
-  in \emph{Proceedings of the 2014 Symposium and Bootcamp on the Science of
-  Security}, ser. HotSoS '14.\hskip 1em plus 0.5em minus 0.4em\relax New York,
-  NY, USA: ACM, 2014, pp. 16:1--16:2. [Online]. Available:
+  pp. 16:1--16:2, 2014. [Online]. Available:
   \url{http://doi.acm.org/10.1145/2600176.2600192}
 \BIBentrySTDinterwordspacing
 
@@ -101,13 +96,10 @@ M.~Busdicker and P.~Upendra, ``The role of healthcare technology management in
 G.~Martin, P.~Martin, C.~Hankin, A.~Darzi, and J.~Kinross, ``Cybersecurity and
   healthcare: how safe are we?'' \emph{Bmj}, vol. 358, p. j3179, 2017.
 
-\bibitem{Marwan:2017:DSF:3090354.3090361}
+\bibitem{Marwan}
 \BIBentryALTinterwordspacing
 M.~Marwan, A.~Kartit, and H.~Ouahmane, ``Design a secure framework for
-  cloud-based medical image storage,'' in \emph{Proceedings of the 2Nd
-  International Conference on Big Data, Cloud and Applications}, ser.
-  BDCA'17.\hskip 1em plus 0.5em minus 0.4em\relax New York, NY, USA: ACM, 2017,
-  pp. 7:1--7:6. [Online]. Available:
+  cloud-based medical image storage,'' pp. 7:1--7:6, 2017. [Online]. Available:
   \url{http://doi.acm.org/10.1145/3090354.3090361}
 \BIBentrySTDinterwordspacing
 
