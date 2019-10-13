@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.9.24)  13 OCT 2019 13:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.9.24)  13 OCT 2019 15:59
 entering extended mode
 **"./Security Problems With Modern Medical Devices.tex"
 ("Security Problems With Modern Medical Devices.tex"
@@ -129,6 +129,10 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
 LaTeX Font Info:    ... okay on input line 17.
 
 -- Lines per column: 58 (exact).
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 57.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 57.
 [1{C:/Users/leon_/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 
@@ -138,23 +142,25 @@ LaTeX Font Info:    ... okay on input line 17.
 ]
 ("Security Problems With Modern Medical Devices.aux") ) 
 Here is how much of TeX's memory you used:
- 1058 strings out of 492895
- 20324 string characters out of 3123735
+ 1061 strings out of 492895
+ 20377 string characters out of 3123735
  87845 words of memory out of 3000000
- 5041 multiletter control sequences out of 15000+200000
+ 5044 multiletter control sequences out of 15000+200000
  37366 words of font info for 67 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 26i,5n,17p,1675b,157s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 26i,5n,17p,1793b,157s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/leon_/AppData/
 Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Users/leon_/AppData/L
-ocal/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Users/leon_/AppDa
-ta/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/leon_/
-AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Users/le
-on_/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
+ocal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/le
+on_/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/User
+s/leon_/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:
+/Users/leon_/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb
+><C:/Users/leon_/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmri8
+a.pfb>
 Output written on "Security Problems With Modern Medical Devices.pdf" (2 pages,
- 61974 bytes).
+ 70322 bytes).
 PDF statistics:
- 26 PDF objects out of 1000 (max. 8388607)
+ 30 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
