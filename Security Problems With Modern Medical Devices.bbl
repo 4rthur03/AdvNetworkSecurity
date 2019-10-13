@@ -70,6 +70,16 @@ D.~Halperin, T.~S. Heydt-Benjamin, K.~Fu, T.~Kohno, and W.~H. Maisel,
   ``Security and privacy for implantable medical devices,'' \emph{IEEE
   pervasive computing}, vol.~7, no.~1, pp. 30--39, 2008.
 
+\bibitem{Rostami:2013:HAI:2541806.2516658}
+\BIBentryALTinterwordspacing
+M.~Rostami, A.~Juels, and F.~Koushanfar, ``Heart-to-heart (h2h): authentication
+  for implanted medical devices,'' in \emph{Proceedings of the 2013 ACM SIGSAC
+  conference on Computer \&\#38; communications security}, ser. CCS '13.\hskip
+  1em plus 0.5em minus 0.4em\relax New York, NY, USA: ACM, 2013, pp.
+  1099--1112. [Online]. Available:
+  \url{http://doi.acm.org/10.1145/2508859.2516658}
+\BIBentrySTDinterwordspacing
+
 \bibitem{denning2010patients}
 T.~Denning, A.~Borning, B.~Friedman, B.~T. Gill, T.~Kohno, and W.~H. Maisel,
   ``Patients, pacemakers, and implantable defibrillators: Human values and
