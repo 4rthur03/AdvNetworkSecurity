@@ -52,4 +52,14 @@ A.~Ray and R.~Cleaveland, ``An analysis method for medical device security,''
 S.~Murphy, ``Is cybersecurity possible in healthcare,'' \emph{National
   Cybersecurity Institute Journal}, vol.~1, no.~3, pp. 49--63, 2015.
 
+\bibitem{halperin2008security}
+D.~Halperin, T.~S. Heydt-Benjamin, K.~Fu, T.~Kohno, and W.~H. Maisel,
+  ``Security and privacy for implantable medical devices,'' \emph{IEEE
+  pervasive computing}, vol.~7, no.~1, pp. 30--39, 2008.
+
+\bibitem{denning2010patients}
+T.~Denning, A.~Borning, B.~Friedman, B.~T. Gill, T.~Kohno, and W.~H. Maisel,
+  ``Patients, pacemakers, and implantable defibrillators: Human values and
+  security for wireless implantable medical devices,'' pp. 917--926, 2010.
+
 \end{thebibliography}
