@@ -65,11 +65,6 @@ M.~Busdicker and P.~Upendra, ``The role of healthcare technology management in
   facilitating medical device cybersecurity,'' \emph{Biomedical instrumentation
   \& technology}, vol.~51, no.~s6, pp. 19--25, 2017.
 
-\bibitem{halperin2008security}
-D.~Halperin, T.~S. Heydt-Benjamin, K.~Fu, T.~Kohno, and W.~H. Maisel,
-  ``Security and privacy for implantable medical devices,'' \emph{IEEE
-  pervasive computing}, vol.~7, no.~1, pp. 30--39, 2008.
-
 \bibitem{Rostami:2013:HAI:2541806.2516658}
 \BIBentryALTinterwordspacing
 M.~Rostami, A.~Juels, and F.~Koushanfar, ``Heart-to-heart (h2h): authentication
@@ -80,10 +75,26 @@ M.~Rostami, A.~Juels, and F.~Koushanfar, ``Heart-to-heart (h2h): authentication
   \url{http://doi.acm.org/10.1145/2508859.2516658}
 \BIBentrySTDinterwordspacing
 
+\bibitem{halperin2008security}
+D.~Halperin, T.~S. Heydt-Benjamin, K.~Fu, T.~Kohno, and W.~H. Maisel,
+  ``Security and privacy for implantable medical devices,'' \emph{IEEE
+  pervasive computing}, vol.~7, no.~1, pp. 30--39, 2008.
+
 \bibitem{denning2010patients}
 T.~Denning, A.~Borning, B.~Friedman, B.~T. Gill, T.~Kohno, and W.~H. Maisel,
   ``Patients, pacemakers, and implantable defibrillators: Human values and
   security for wireless implantable medical devices,'' pp. 917--926, 2010.
+
+\bibitem{AVtest}
+\BIBentryALTinterwordspacing
+AV-TEST, ``Malware statistics and trends report,'' 2019. [Online]. Available:
+  \url{https://www.av-test.org/en/statistics/malware/}
+\BIBentrySTDinterwordspacing
+
+\bibitem{ma2019medical}
+P.~Ma, Z.~Wang, X.~Zou, J.~Zhang, Q.~Liu, X.~Lyu, and W.~Wang, ``Medical
+  imaging device security: An exploratory study,'' \emph{arXiv preprint
+  arXiv:1904.00224}, 2019.
 
 \bibitem{Almohri:2017:TMM:3204094.3204113}
 \BIBentryALTinterwordspacing
