@@ -121,6 +121,13 @@ M.~Stites and O.~S. Pianykh, ``How secure is your radiology department? mapping
   digital radiology adoption and security worldwide,'' \emph{American Journal
   of Roentgenology}, vol. 206, no.~4, pp. 797--804, 2016.
 
+\bibitem{McAfee}
+\BIBentryALTinterwordspacing
+C.~Beek, ``Mcafee researchers find poor security exposes medical data to
+  cybercriminals,'' Mar. 2018. [Online]. Available:
+  \url{https://securingtomorrow.mcafee.com/other-blogs/mcafee-labs/mcafee-researchers-find-poor-security-exposes-medical-data-to-cybercriminals/}
+\BIBentrySTDinterwordspacing
+
 \bibitem{fu2014controlling}
 K.~Fu and J.~Blum, ``Controlling for cybersecurity risks of medical device
   software,'' \emph{Biomedical instrumentation \& technology}, vol.~48, no.~s1,

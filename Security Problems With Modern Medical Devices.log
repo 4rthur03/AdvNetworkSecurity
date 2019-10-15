@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.9.24)  14 OCT 2019 21:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.9.24)  14 OCT 2019 21:56
 entering extended mode
 **"./Security Problems With Modern Medical Devices.tex"
 ("Security Problems With Modern Medical Devices.tex"
@@ -464,6 +464,18 @@ Underfull \hbox (badness 1783) in paragraph at lines 114--118
 n,
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 126--130
+[][]$\OT1/ptm/m/n/8 https : / / securingtomorrow . mcafee . com / other-[]blogs
+ / mcafee-[]labs /
+ []
+
+
+Overfull \hbox (25.88918pt too wide) in paragraph at lines 126--130
+\OT1/ptm/m/n/8 mcafee-[]researchers-[]nd-[]poor-[]security-[]exposes-[]medical
+-[]data-[]to-[]cybercriminals/$[][] 
+ []
+
 )
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 152.
  [4] [5 <./OSonRadiology.png>]
@@ -478,10 +490,10 @@ es".out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 152.
  ) 
 Here is how much of TeX's memory you used:
- 6687 strings out of 492895
- 104730 string characters out of 3123735
- 209735 words of memory out of 3000000
- 10506 multiletter control sequences out of 15000+200000
+ 6689 strings out of 492895
+ 104749 string characters out of 3123735
+ 209764 words of memory out of 3000000
+ 10507 multiletter control sequences out of 15000+200000
  42924 words of font info for 80 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  28i,8n,28p,1678b,333s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -494,9 +506,9 @@ ts/type1/urw/times/utmb8a.pfb><C:/Users/leon_/AppData/Local/Programs/MiKTeX 2.9
 X 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Users/leon_/AppData/Local/Programs/M
 iKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
 Output written on "Security Problems With Modern Medical Devices.pdf" (5 pages,
- 153331 bytes).
+ 154578 bytes).
 PDF statistics:
- 186 PDF objects out of 1000 (max. 8388607)
- 39 named destinations out of 1000 (max. 500000)
+ 190 PDF objects out of 1000 (max. 8388607)
+ 40 named destinations out of 1000 (max. 500000)
  91 words of extra memory for PDF output out of 10000 (max. 10000000)
 
