@@ -96,6 +96,36 @@ P.~Ma, Z.~Wang, X.~Zou, J.~Zhang, Q.~Liu, X.~Lyu, and W.~Wang, ``Medical
   imaging device security: An exploratory study,'' \emph{arXiv preprint
   arXiv:1904.00224}, 2019.
 
+\bibitem{Marwan}
+\BIBentryALTinterwordspacing
+M.~Marwan, A.~Kartit, and H.~Ouahmane, ``Design a secure framework for
+  cloud-based medical image storage,'' pp. 7:1--7:6, 2017. [Online]. Available:
+  \url{http://doi.acm.org/10.1145/3090354.3090361}
+\BIBentrySTDinterwordspacing
+
+\bibitem{InformationSecurityonDiagnosticImagingSystem}
+\BIBentryALTinterwordspacing
+Z.~Wang, P.~Ma, Y.~Chi, and J.~Zhang, ``Medical devices are at risk:
+  Information security on diagnostic imaging system,'' pp. 2309--2311, 2018.
+  [Online]. Available: \url{http://doi.acm.org/10.1145/3243734.3278513}
+\BIBentrySTDinterwordspacing
+
+\bibitem{mahler2018know}
+T.~Mahler, N.~Nissim, E.~Shalom, I.~Goldenberg, G.~Hassman, A.~Makori,
+  I.~Kochav, Y.~Elovici, and Y.~Shahar, ``Know your enemy: Characteristics of
+  cyber-attacks on medical imaging devices,'' \emph{arXiv preprint
+  arXiv:1801.05583}, 2018.
+
+\bibitem{stites2016secure}
+M.~Stites and O.~S. Pianykh, ``How secure is your radiology department? mapping
+  digital radiology adoption and security worldwide,'' \emph{American Journal
+  of Roentgenology}, vol. 206, no.~4, pp. 797--804, 2016.
+
+\bibitem{fu2014controlling}
+K.~Fu and J.~Blum, ``Controlling for cybersecurity risks of medical device
+  software,'' \emph{Biomedical instrumentation \& technology}, vol.~48, no.~s1,
+  pp. 38--41, 2014.
+
 \bibitem{Almohri:2017:TMM:3204094.3204113}
 \BIBentryALTinterwordspacing
 H.~Almohri, L.~Cheng, D.~D. Yao, and H.~Alemzadeh, ``On threat modeling and
