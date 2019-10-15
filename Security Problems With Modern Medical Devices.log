@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.9.24)  15 OCT 2019 10:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.9.24)  15 OCT 2019 10:22
 entering extended mode
 **"./Security Problems With Modern Medical Devices.tex"
 ("Security Problems With Modern Medical Devices.tex"
@@ -458,7 +458,7 @@ File: OSonRadiology.png Graphic file (type png)
 Package pdftex.def Info: OSonRadiology.png  used on input line 125.
 (pdftex.def)             Requested size: 361.19843pt x 259.4926pt.
  [4]
-("Security Problems With Modern Medical Devices.bbl"
+("Security Problems With Modern Medical Devices.bbl" [5 <./OSonRadiology.png>]
 Underfull \hbox (badness 1783) in paragraph at lines 114--118
 []\OT1/ptm/m/n/8 T. Mahler, N. Nis-sim, E. Shalom, I. Gold-en-berg, G. Has-s-ma
 n,
@@ -476,29 +476,28 @@ Overfull \hbox (25.88918pt too wide) in paragraph at lines 126--130
 -[]data-[]to-[]cybercriminals/$[][] 
  []
 
-[5 <./OSonRadiology.png>])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 189.
+)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 190.
  [6
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 189.
-
-("Security Problems With Modern Medical Devices.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 189.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 189.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 190.
+ ("Security Problems With Modern Medical Devices.aux")
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 190.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 190.
 Package rerunfilecheck Info: File `"Security Problems With Modern Medical Devic
 es".out' has not changed.
-(rerunfilecheck)             Checksum: 78310C00E7FD1F3A155D10353F4C07BD;683.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 189.
+(rerunfilecheck)             Checksum: 63F5C57E33694F062BF4A54F3119F2D2;667.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 190.
  ) 
 Here is how much of TeX's memory you used:
  6692 strings out of 492895
  104780 string characters out of 3123735
- 209846 words of memory out of 3000000
+ 209830 words of memory out of 3000000
  10508 multiletter control sequences out of 15000+200000
  42924 words of font info for 80 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 28i,9n,28p,2882b,464s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 28i,9n,28p,2882b,462s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/leon_/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc
 }<C:/Users/leon_/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/
 cm/cmmi10.pfb><C:/Users/leon_/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pub
@@ -508,9 +507,9 @@ ts/type1/urw/times/utmb8a.pfb><C:/Users/leon_/AppData/Local/Programs/MiKTeX 2.9
 X 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Users/leon_/AppData/Local/Programs/M
 iKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
 Output written on "Security Problems With Modern Medical Devices.pdf" (6 pages,
- 160315 bytes).
+ 160879 bytes).
 PDF statistics:
- 197 PDF objects out of 1000 (max. 8388607)
+ 196 PDF objects out of 1000 (max. 8388607)
  42 named destinations out of 1000 (max. 500000)
  91 words of extra memory for PDF output out of 10000 (max. 10000000)
 
