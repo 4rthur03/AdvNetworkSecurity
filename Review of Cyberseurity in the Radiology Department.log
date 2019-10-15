@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.9.24)  15 OCT 2019 10:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.9.24)  15 OCT 2019 11:18
 entering extended mode
 **"./Review of Cyberseurity in the Radiology Department.tex"
 ("Review of Cyberseurity in the Radiology Department.tex"
@@ -461,13 +461,13 @@ Non-PDF special ignored!
 
 
 ] [2]
-<"Total Number Of Malware per Year".png, id=98, 811.53188pt x 580.41844pt>
+<"Total Number Of Malware per Year".png, id=97, 811.53188pt x 580.41844pt>
 File: "Total Number Of Malware per Year".png Graphic file (type png)
 <use "Total Number Of Malware per Year".png>
 Package pdftex.def Info: "Total Number Of Malware per Year".png  used on input 
 line 108.
 (pdftex.def)             Requested size: 361.19843pt x 258.34296pt.
-<OSonRadiology.png, id=109, 810.02625pt x 581.92406pt>
+<OSonRadiology.png, id=108, 810.02625pt x 581.92406pt>
 File: OSonRadiology.png Graphic file (type png)
 <use OSonRadiology.png>
 Package pdftex.def Info: OSonRadiology.png  used on input line 126.
@@ -527,9 +527,9 @@ ts/type1/urw/times/utmb8a.pfb><C:/Users/leon_/AppData/Local/Programs/MiKTeX 2.9
 X 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Users/leon_/AppData/Local/Programs/M
 iKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
 Output written on "Review of Cyberseurity in the Radiology Department.pdf" (6 p
-ages, 161634 bytes).
+ages, 161436 bytes).
 PDF statistics:
- 196 PDF objects out of 1000 (max. 8388607)
+ 195 PDF objects out of 1000 (max. 8388607)
  42 named destinations out of 1000 (max. 500000)
  91 words of extra memory for PDF output out of 10000 (max. 10000000)
 
