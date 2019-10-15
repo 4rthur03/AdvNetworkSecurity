@@ -63,8 +63,8 @@ conclusions and describes future work.
 \begin{table*}[tbh]
 	\caption{Common cyber threats in healthcare \cite{martin2017cybersecurity}.}
 	\centering
-	\begin{tabular}{l l}
-		\hline\hline
+	\begin{tabular}{l | l}
+		\hline
 	Data theft for financial gain & Stealing personal data for the purposes of monetary gain. \\
 	Data theft for impact & Theft and public release of sensitive medical information. \\
 	Ransomware & Using malware to block users from their data or systems or to delete data unless a fee is paid. \\
@@ -102,7 +102,7 @@ Cybersecurity terms are unfamiliar to many people and can leads to misunderstand
 \emph{Implantable Medical Devices} (IMDs) apply continuous monitoring and automatic therapies to the treatment of chronic medical disorders \cite{Rostami:2013:HAI:2541806.2516658}. For example, a typical IMDs monitor and treat physiological conditions within the body and improve patients' quality of life and help sustain their lives.  These devices includes pacemakers, implantable cardiac defibrillators (ICDs), drug delivery systems, and neurostimulator. With these devices, health professional can treat abnormal physiological conditions within the body, such as cardiac arrhythmia, diabetes, and Parkinson's disease. IMDs' pervasiveness continues with upward of 25 million United States citizens currently reliant on them for life-critical functions \cite{halperin2008security}. In the United States, over 100,00 patients a year receive implantable cardioverter defibrillators (ICDs), which detect dangerous heart rhythms and administer electric shocks to restore normal activity \cite{Rostami:2013:HAI:2541806.2516658}. Some current-generation devices now have the ability to communicate wirelessly with external equipment from distances up to five meters away \cite{denning2010patients}. In fact, the latest IMDs is able to support remote monitoring over long-range, high-bandwidth wireless links, and emerging devices will communicate with other inter-operating IMDs. \par
 Despite these advances in IMD technologies, they still can occasionally malfunction. Additionally, they are still behind in security and privacy. Many information technology professionals are still lacking in the understanding of how device security and privacy interact with and affect medical safety and treatment efficacy. Cybersecurity protection of these devices are not just a technical issue according to \cite{williams2015cybersecurity}. The foundational study of these devices demonstrated the vulnerability is detrimental to their safe operation, and the availability, confidentiality, and integrity ot the associated data. IMDs poses the challenge of having a balance of security and accessibility for medical professionals.	
 
-\begin{figure*}
+\begin{figure*}[tbh]
 	\centering
 	\includegraphics[width=0.7\linewidth]{"Total Number Of Malware per Year"}
 	\caption{A graph of total number of Malware per year, based on data from AV-TEST \cite{AVtest}.}
@@ -113,7 +113,7 @@ Despite these advances in IMD technologies, they still can occasionally malfunct
 \section{Cybersecurity in Radiology Department}
 \label{sec:Radiology}
 Healthcare today increasingly depends on computers, networking, and information system. Due to the need of digital healthcare, most diagnostic imaging systems are connected to the Internet/LAN (Local Area Network) \cite{ma2019medical}. Furthermore, this connectivity enables computer enhanced medical imaging capabilities, that allows for early discovery of diseases, research new diseases, and better treatment of medical condition. Additionally, this improvement enables doctors extracting meaningful information from patients' digital records. It would permit doctors to detect and then treat a disease at its earliest stages. Increasing the quality of medical services \cite{Marwan}.
-Further, the radiology department have seen a more proliferation of networked equipment in the past decades. They also have the highest density of networked medical equipment. However, many manufacturers focus solely on innovation and functionality but little effort was put on the network security of this equipment. For example, radiologist uses a system called Picture Archiving and Communication System or Radiography Information System (PAC/RIS) \cite{ferrara2019cybersecurity}. It is a technology that provides doctors with economical storage and convenient access to image from multiple source machine types. PACS receive images from medical imaging devices through an acquisition gateway. From the acquisition gateway, the images is moved to the database system, where they are archived. This eliminates the need to manually file, retrieve, or transport film jackets, the folders used to store and protect X-Ray film. The universal format for PACS is Digital Imaging and Communications in Medicine or DICOM \cite{InformationSecurityonDiagnosticImagingSystem}. DICOM is an international standard to transmit, store, retrieve, print, process, and display medical imaging information. This digital storage and transmission of images across the hospital network using PACS technology have become a well-established norm in most large radiology departments \cite{moses2015lack}. With this increase of connectivity imaging devices, the issue of cybersecurity is now involves more than just the security and integrity of patient data and machine operation. \par 
+Further, the radiology department have seen a more proliferation of networked equipment in the past decades. They also have the highest density of networked medical equipment. However, many manufacturers focus solely on innovation and functionality but little effort was put on the network security of this equipment. For example, radiologist uses a system called Picture Archiving and Communication System or Radiography Information System (PAC/RIS) \cite{ferrara2019cybersecurity}. It is a technology that provides doctors with economical storage and convenient access to image from multiple source machine types. PACS receive images from medical imaging devices through an acquisition gateway. From the acquisition gateway, the images is moved to the database system, where they are archived. This eliminates the need to manually file, retrieve, or transport film jackets, the folders used to store and protect X-Ray film. With the development of PACS/RIS, traditional diagnostic imaging system have been replaced to computer assisted ones. Further, the universal format for PACS is Digital Imaging and Communications in Medicine or DICOM \cite{InformationSecurityonDiagnosticImagingSystem}. DICOM is an international standard to transmit, store, retrieve, print, process, and display medical imaging information. This digital storage and transmission of images across the hospital network using PACS technology have become a well-established norm in most large radiology departments \cite{moses2015lack}. With this increase of connectivity imaging devices, the issue of cybersecurity is now involves more than just the security and integrity of patient data and machine operation. \par 
 There is a common term used in medical device cybersecurity that is called CIA (or CIA triad), which stands for the categories confidentiality, integrity, an availability. Confidentiality refers to protecting patients' information and ensuring that data are always available to people with legitimate needs. Integrity means preventing malware from altering patients' medical information. Availability means the data, the device, the network, and  the operations software are always accessible and available \cite{mahler2018know}. 
 However, with all of these advancement of technology, a breach of security on one computer can bring down the entire hospital's network, compromising patient care and putting patients at risk of harm, threatening their confidentiality, safety, and well-being \cite{ferrara2019cybersecurity}. Something have to be done to eliminate this security issue.
 
@@ -127,12 +127,46 @@ Diagnostic imaging (DI) system is a technique that creates visual representation
 	\label{fig:osonradiology}
 \end{figure*}
 
-\subsection{Vulnerabilities Found in the Radiology Departmnet}
-A recent worldwide security sweep of DICOM servers found more than 2700 networks that were not secured \cite{stites2016secure} \cite{ferrara2019cybersecurity}. A research was conducted by McAfee to find vulnerability on DICOM and PACS used by medical facilities of all sizes \cite{McAfee}. As mentioned above, PACS operates on acquisition gateway to receive images. This acquisition gateways usually are placed in the facility's computer network instead of being insulated from it. Although it is done to increase efficiency, this leaves the gateway vulnerable to attacks and potentially compromises patient confidentiality. PACS price ranges from free (open-source PACS)to exceedingly expensive. Many smaller facilities favor more towards free PACS to cut expenditure. The problem with free open-source PACS is that it runs on old software platform that contains multiple vulnerabilities. Many of these PACS system are based on Windows XP, even though Microsoft announced the end of support for Windows XP in 2014 \cite{ma2019medical}. Furthermore, the researchers found 1100 unprotected PACS servers that directly connected to the internet around the world. They also were able to obtain the server name and version number the PACS was built on. 
+\begin{table}[tbh!]
+\caption{Top 10 Countries with Open DICOM Servers \cite{stites2016secure}.}
+\label{tab:DICOMServers}
+\centering
+\begin{tabular}{|c|c|c|}
+	\hline 
+	\multicolumn{3}{|c|}{Absolute No. of Open DICOM Servers} \\ 
+	\hline
+	Rating & Country & No. Of Servers \\ 
+	\hline 
+	1 & United States & 346 \\ 
+	\hline 
+	2 & Brazil & 51 \\ 
+	\hline 
+	3 & Turkey & 49 \\ 
+	\hline 
+	4 & Iran & 34 \\ 
+	\hline 
+	5 & India & 28 \\ 
+	\hline 
+	6 & South Korea & 15 \\ 
+	\hline 
+	7 & Taiwan & 14 \\ 
+	\hline 
+	8 & Mexico & 14 \\ 
+	\hline 
+	9 & Canada & 13 \\ 
+	\hline 
+	10 & Australia & 12 \\ 
+	\hline 
+\end{tabular}
+\end{table} 
+
+\subsection{Vulnerabilities Found in the Radiology Department}
+A recent worldwide security sweep of DICOM servers found more than 2700 networks that were not secured. A research was conducted by McAfee to find vulnerability on DICOM and PACS used by medical facilities of all sizes \cite{McAfee}. As mentioned above, PACS operates on acquisition gateway to receive images. This acquisition gateways usually are placed in the facility's computer network instead of being insulated from it. Although it is done to increase efficiency, this leaves the gateway vulnerable to attacks and potentially compromises patient confidentiality. PACS price ranges from free (open-source PACS)to exceedingly expensive. Many smaller facilities favor more towards free PACS to cut expenditure. The problem with free open-source PACS is that it runs on old software platform that contains multiple vulnerabilities. Many of these PACS system are based on Windows XP, even though Microsoft announced the end of support for Windows XP in 2014 \cite{ma2019medical}. Furthermore, the researchers found 1100 unprotected PACS servers that directly connected to the internet around the world. They also were able to obtain the server name and version number the PACS was built on. \par 
+The fundamental standards running contemporary digital medicine, DICOM, were conceived and developed in the late 1980s. Despite being the standard for more than 20 years, the security part was nearly untouched. There was some later standard changes and legal reinforcements; However, the medical data security has never been soundly built into the clinical data or devices, and is still largely theoretical and does not exist in practice  \cite{ferrara2019cybersecurity} \cite{ma2019medical} \cite{stites2016secure}. Furthermore, many researcher did a vulnerability scanning on the DICOM server worldwide. Table \ref{tab:DICOMServers} shows the finding of Nmap scan result. Unfortunately, the country with the most prevalent DICOM rating also tend to lead in the most unsecured DICOM rating. In the United States, there is 346 number of servers that is open with no protection. This fact implies that patients in the United States have the highest risk of having their medical records stolen or compromised \cite{stites2016secure}. Then, Figure \ref{fig:osonradiology} gives a distribution of the heterogeneous composition of operating systems running on the radiology network. Most of the equipment used Microsoft Windows, and the next largest subnet running Unix or Linux. Among the equipment running on Windows, a significant portion ran Windows XP with Service Pack 2; Service Pack 3 and the security updates released subsequently had not been installed on these machines. The other equipment running different version of Windows is not been updated with the latest service pack or security update \cite{moses2015lack}.  Additionally, another researcher, McAfee, discovered thousands of data available for download, many of them containing protected health information such as patients' names, ages, weight, facility, and city where the imaging study was done. They combined PACS and DICOM vulnerabilities to create a fictitious patient record, complete with a knee radiograph. They later penetrated the server again and changed all references in the record from the knee to elbow. The change was successful and saved in the fictitious patient's record \cite{ferrara2019cybersecurity}.
 
 talk about the types of vulnerability in the imaging system in DICOM use \cite{InformationSecurityonDiagnosticImagingSystem}, \cite{stites2016secure}, \cite{mahler2018know}, \cite{ma2019medical}, \cite{ferrara2019cybersecurity}, \cite{stites2016secure}.
 
-talk about the OS, PACS, and equipment used use \cite{moses2015lack}, \cite{fu2014controlling}, and figure \ref{fig:osonradiology}. 
+Figure \ref{fig:osonradiology}. 
 
 \subsection{Security Survey}
 talk about the different method people try to make imaging system more secure
