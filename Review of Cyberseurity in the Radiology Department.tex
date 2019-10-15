@@ -8,6 +8,7 @@
 \documentclass[pdf,bookmarks,colorlinks=true]{IEEEtran}
 \usepackage{times}
 \usepackage{amsmath}
+\usepackage{tabularx}
 \usepackage{hyperref}
 \usepackage{url}
 \usepackage{psfrag}    %Shouldn't use this if you plan on using pdflatex!
@@ -61,19 +62,19 @@ The rest of this paper first discusses the background of cybersecurity in
 conclusions and describes future work.
 
 \begin{table*}[tbh]
-	\caption{Common cyber threats in healthcare \cite{martin2017cybersecurity}.}
-	\centering
-	\begin{tabular}{l | l}
-		\hline
-	Data theft for financial gain & Stealing personal data for the purposes of monetary gain. \\
-	Data theft for impact & Theft and public release of sensitive medical information. \\
-	Ransomware & Using malware to block users from their data or systems or to delete data unless a fee is paid. \\
-	Data corruption & Deliberate corruptions of data, such as altering test results, for political or personal gain. \\
-	Denial of service attacks & Disruption of a network or system by flooding it with superfluous requests motivated by blackmail, revenge, or activism. \\
-	Business email compromise & Creating fake personal communications for financial gain.\\ 
-	The unwitting insider & Substantial disruption to systems or the loss of data owing to the unintentional actions of staff using outdated and at-risk systems. \\
+	\caption{Common cyber threats in healthcare \cite{martin2017cybersecurity}.} 
+	\begin{tabularx}{\textwidth}{|l|X|}
 	\hline
-	\end{tabular}
+	\textbf{Type of Threat} & \textbf{Description} \\ \hline \hline 
+	Data theft for financial gain & Stealing personal data for the purposes of monetary gain. \\ \hline 
+	Data theft for impact & Theft and public release of sensitive medical information. \\ \hline 
+	Ransomware & Using malware to block users from their data or systems or to delete data unless a fee is paid. \\ \hline 
+	Data corruption & Deliberate corruptions of data, such as altering test results, for political or personal gain. \\ \hline 
+	Denial of service attacks & Disruption of a network or system by flooding it with superfluous requests motivated by blackmail, revenge, or activism. \\ \hline 
+	Business email compromise & Creating fake personal communications for financial gain.\\ 
+	The unwitting insider & Substantial disruption to systems or the loss of data owing to the unintentional actions of staff using outdated and at-risk systems. \\ \hline 
+	\hline
+	\end{tabularx}
 	\label{tab:common}
 \end{table*}
 
@@ -133,9 +134,9 @@ Diagnostic imaging (DI) system is a technique that creates visual representation
 \centering
 \begin{tabular}{|c|c|c|}
 	\hline 
-	\multicolumn{3}{|c|}{Absolute No. of Open DICOM Servers} \\ 
+	\multicolumn{3}{|c|}{\textbf{Absolute No. of Open DICOM Servers}} \\ 
 	\hline
-	Rating & Country & No. Of Servers \\ 
+	\textbf{Rating} & \textbf{Country} & \textbf{No. Of Servers} \\ 
 	\hline 
 	1 & United States & 346 \\ 
 	\hline 
